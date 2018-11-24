@@ -1,14 +1,66 @@
+header {
+    font-family: 'Times';
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    height: 50px;  
+    width: 100%;
+    font: 150% bold;
+    align-content: center;
+}
+h2 {
+    width: 960px;
+    margin: 0 auto 0 auto;    
+    }
+    .alignleft {
+        width: 194px; 
+        padding: 12px;
+        background-color: #4aaaa5;
+        color: white;
+        text-align: center; 
+        float: left;
+        font-weight: bold;
+    }
+    .alignright { 
+        float: right;
+        margin-left: 10px;
+        font-size: 60%;
+        font-weight: bold;
+        padding-top: 17px;
+        margin-right: auto;
+    }
+    .borderleft {
+        border-left: 1px solid #cccccc;
+        padding-left: 19px;
+    }
+    .bottomborder {
+        border-bottom: 2px solid #dddddd;
+        padding-bottom: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+    a:link, a:visited, a:hover, a:active {
+        text-decoration: none;
+        color: #777777;
+        margin: 10px; 
+    }
+h1 {
+    font-size: 150%;
+    font-weight: bold;
+    color: #4aaaa5;
+    margin: 18px;
+}
 body {
     font-family: 'Helvetica Neue';
     color: #777777;
     margin: 0;
     padding: 0;
 }
-    a:link, a:visited, a:hover, a:active {
-        text-decoration: none;
-        color: #777777;
-        margin: 10px; 
-    }
+    .bodymargin {
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: justify;
+    }    
     .box {
         margin-top: -25px;
         margin-left: auto;
@@ -18,6 +70,12 @@ body {
         background-color: #ffffff;
         font: #777777;
         overflow: auto;
+    }
+    .image {
+        height: 158px;
+        width: 211px;
+        float: left;
+        margin: 0 20px 10px 30px;
     }
     .leftmargin {
         margin-left: 30px;
@@ -55,7 +113,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 30px;
+        margin: 0 0 30px 30px;
     }
     .text {
         border: 2px solid #4aaaa5;
@@ -63,9 +121,9 @@ body {
         color: #ffffff;
         width: 100%;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 75px;
         padding: 10px;
-        font-size: 130%;    
+        font-size: 130%; 
     }
     .footer {
         border-top: 5px solid #4aaaa5;
@@ -79,6 +137,10 @@ body {
         text-align: center;
         font-size: 70%;
     }
+form {
+    margin-left: 30px;
+    font-family: 'Helvetica Neue';
+}
 input[type=text] {
     border: 2px solid #dddddd;
     font: #777777;
@@ -100,54 +162,100 @@ textarea {
     outline: none;
     margin-top: 5px;
 }
-header {
-    font-family: 'Times';
-    background-color: #ffffff;
-    border-bottom: 2px solid #cccccc;
-    height: 50px;  
-    width: 100%;
-    font: 150% bold;
-}
-    .alignleft {
-        width: 194px; 
-        padding: 12px;
-        background-color: #4aaaa5;
-        color: white;
-        text-align: center; 
-        position: absolute;
-        top: 0;
-        font-weight: bold;
+
+@media (min-width: 641px) and (max-width: 980px) { 
+    h2 {
+        width: 100%;
+        margin: 0px 40px 0px 20px;
     }
-    .alignright { 
-        float: right;
-        margin-left: 10px;
-        font-size: 60%;
-        font-weight: bold;
-        padding-top: 17px;
+        .alignright {
+            margin-right: 40px;
+        }
+        .box {
+            width: 90%;
+            margin: 0 5% 50px 5%;
+        }
+    form {
+        margin: 0 30px 0 30px;
     }
-    .borderleft {
-        border-left: 1px solid #cccccc;
-        padding-left: 19px;
+    input[type=text] {
+        width: 100%;
+        margin: 5px 0 12px 0;
     }
-    .bottomborder {
-        border-bottom: 2px solid #dddddd;
-        padding-bottom: 15px;
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-bottom: 20px;
+    textarea {
+        width: 100%;
+        margin-right: 10px;
     }
-h1 {
-    font-size: 150%;
-    font-weight: bold;
-    color: #4aaaa5;
-    margin: 18px;
 }
-h2 {
-    margin: 0 auto 0 auto;
-    width: 960px;
-}
-p {
-    margin-left: 30px;
-    margin-right: 30px;
-    text-align: justify;
-}
+@media (max-width: 640px) {
+    header {
+        height: 90px;
+        width: 100%;
+    
+    }
+    h2 {
+        width: 100%;
+    }
+        .alignleft {
+            float: none;
+            width: 100%;
+        }
+        .alignright { 
+            float: none;
+            padding-top: 12px;
+            width: 100%;
+            text-align: center;
+            margin-right: 0;
+            margin-left: 0;
+        }
+        .box {
+            width: 93%;    
+            margin: 0 2% 50px 3%;
+        }
+        .bottomborder {
+            width: 90%;
+            margin-left: 5%;
+        }
+        .image {
+            width: 90%;
+            height: auto;
+            margin: 0 5% 20px 5%;
+        }
+        .bodymargin {
+            margin: 0 5% 0 5%;
+        }
+        .hangman {
+            background-size: 100% 100%;
+        }
+        .rpg {
+            background-size: 100% 100%;
+        }
+        .trivia {
+            background-size: 100% 100%;
+        }
+        .rutgers { 
+            background-size: 100% 100%;
+        }
+        .rock {
+            background-size: 100% 100%;
+        }
+        .float {
+            float: none;
+            width: 90%;
+            height: 100%;
+            margin: 0 5% 30px 5%;
+        }
+        .text {
+            margin-top: 50%;
+            margin-bottom: 30%;
+        }
+    form {
+        margin: 0 5% 0 5%;
+    }
+    input[type=text] {
+        width: 100%;
+        margin: 5px 0 12px 0;
+    }
+    textarea {
+        width: 100%;
+    }
