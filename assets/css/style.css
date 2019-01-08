@@ -86,7 +86,7 @@ body {
         background-size: 270px 180px;
         background-position: center;
     }
-    .rpg {
+    .crystals {
         background: url(../images/Compass.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
@@ -103,6 +103,11 @@ body {
     }
     .rock {
         background: url(../images/RPS.jpg) no-repeat;
+        background-size: 270px 180px;
+        background-position: center;
+    }
+    .sabers {
+        background: url(../images/Sabers.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
     }
