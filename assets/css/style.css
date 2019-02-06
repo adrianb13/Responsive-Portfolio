@@ -60,6 +60,10 @@ body {
         margin-left: 30px;
         margin-right: 30px;
         text-align: justify;
+    }
+    .linkmargin {
+        margin: 0 20px 0 20px;
+        text-decoration: underline;
     }    
     .box {
         margin-top: -25px;
