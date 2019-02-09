@@ -95,31 +95,50 @@ body {
         background: url(../images/Hangman.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
+        border: 1px solid white;
+        border-radius: 30px;
     }
     .crystals {
         background: url(../images/Compass.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
+        border: 1px solid white;
+        border-radius: 30px;
     }
     .trivia {
         background: url(../images/Trivia.png) no-repeat;
         background-size: 270px 180px;
         background-position: center;
+        border: 1px solid white;
+        border-radius: 30px;
     }
     .rutgers {
         background: url(../images/Rutgers.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
+        border: 1px solid white;
+        border-radius: 30px;
     }
     .rock {
         background: url(../images/RPS.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
+        border: 1px solid white;
+        border-radius: 30px;
     }
     .sabers {
         background: url(../images/Sabers.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
+        border: 1px solid white;
+        border-radius: 30px;
+    }
+    .senate {
+        background: url(../images/USFlag.png) no-repeat;
+        background-size: 270px 180px;
+        background-position: center;
+        border: 1px solid white;
+        border-radius: 30px;
     }
     .float {
         float: left;
@@ -255,6 +274,9 @@ textarea {
             background-size: 100% 100%;
         }
         .sabers {
+            background-size: 100% 100%;
+        }
+        .senate {
             background-size: 100% 100%;
         }
         .float {
