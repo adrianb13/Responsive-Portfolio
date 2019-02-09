@@ -96,49 +96,49 @@ body {
         background-size: 270px 180px;
         background-position: center;
         border: 1px solid white;
-        border-radius: 30px;
+        border-radius: 25px;
     }
     .crystals {
         background: url(../images/Compass.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
         border: 1px solid white;
-        border-radius: 30px;
+        border-radius: 25px;
     }
     .trivia {
         background: url(../images/Trivia.png) no-repeat;
         background-size: 270px 180px;
         background-position: center;
         border: 1px solid white;
-        border-radius: 30px;
+        border-radius: 25px;
     }
     .rutgers {
         background: url(../images/Rutgers.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
         border: 1px solid white;
-        border-radius: 30px;
+        border-radius: 25px;
     }
     .rock {
         background: url(../images/RPS.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
         border: 1px solid white;
-        border-radius: 30px;
+        border-radius: 25px;
     }
     .sabers {
         background: url(../images/Sabers.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
         border: 1px solid white;
-        border-radius: 30px;
+        border-radius: 25px;
     }
     .senate {
         background: url(../images/USFlag.png) no-repeat;
         background-size: 270px 180px;
         background-position: center;
         border: 1px solid white;
-        border-radius: 30px;
+        border-radius: 25px;
     }
     .float {
         float: left;
