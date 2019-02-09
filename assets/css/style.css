@@ -14,8 +14,8 @@ h2 {
     .alignleft {
         width: 194px; 
         padding: 12px;
-        background-color: #4aaaa5;
-        color: white;
+        background-color: darkblue;
+        color: lightblue;
         text-align: center; 
         float: left;
         font-weight: bold;
@@ -47,7 +47,7 @@ h2 {
 h1 {
     font-size: 150%;
     font-weight: bold;
-    color: #4aaaa5;
+    color: darkblue;
     margin: 18px;
 }
 body {
@@ -72,6 +72,7 @@ body {
         width: 956px;
         border: 2px solid #dddddd;
         background-color: #ffffff;
+        box-shadow: 3px 3px #777777;
         font: #777777;
         overflow: auto;
     }
@@ -80,7 +81,7 @@ body {
         width: 211px;
         float: left;
         margin: 0 20px 10px 30px;
-        border: 1px solid white;
+        border: 1px solid #ffffff;
         border-radius: 15px;
     }
     .linkborder {
@@ -95,49 +96,49 @@ body {
         background: url(../images/Hangman.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid white;
+        border: 1px solid #ffffff;
         border-radius: 25px;
     }
     .crystals {
         background: url(../images/Compass.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid white;
+        border: 1px solid #ffffff;
         border-radius: 25px;
     }
     .trivia {
         background: url(../images/Trivia.png) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid white;
+        border: 1px solid #ffffff;
         border-radius: 25px;
     }
     .rutgers {
         background: url(../images/Rutgers.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid white;
+        border: 1px solid #ffffff;
         border-radius: 25px;
     }
     .rock {
         background: url(../images/RPS.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid white;
+        border: 1px solid #ffffff;
         border-radius: 25px;
     }
     .sabers {
         background: url(../images/Sabers.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid white;
+        border: 1px solid #ffffff;
         border-radius: 25px;
     }
     .senate {
         background: url(../images/USFlag.png) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid white;
+        border: 1px solid #ffffff;
         border-radius: 25px;
     }
     .float {
@@ -150,9 +151,9 @@ body {
         margin: 0 0 30px 30px;
     }
     .text {
-        border: 2px solid #4aaaa5;
-        background-color: #4aaaa5;
-        color: #ffffff;
+        border: 2px solid darkblue;
+        background-color: darkblue;
+        color: lightblue;
         width: 100%;
         text-align: center;
         margin-top: 75px;
@@ -160,14 +161,15 @@ body {
         font-size: 130%; 
     }
     .footer {
-        border-top: 5px solid #4aaaa5;
+        border-top: 5px solid darkblue;
         position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
-        padding-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 10px;
         background-color: #666666;
-        color: white;
+        color: #ffffff;
         text-align: center;
         font-size: 70%;
     }
@@ -184,9 +186,9 @@ input[type=text] {
     margin: 5px 0 12px 0;
 }
 input[type=submit] {
-    background-color: #4aaaa5;
+    background-color: darkblue;
     border: none;
-    color: #ffffff;
+    color: lightblue;
     padding: 5px 20px;
 }
 textarea {
