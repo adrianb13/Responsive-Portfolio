@@ -80,6 +80,12 @@ body {
         width: 211px;
         float: left;
         margin: 0 20px 10px 30px;
+        border: 1px solid white;
+        border-radius: 15px;
+    }
+    .linkborder {
+        border: 1px solid #dddddd;
+        margin-bottom: 15px;
     }
     .leftmargin {
         margin-left: 30px;
@@ -236,7 +242,7 @@ textarea {
         .hangman {
             background-size: 100% 100%;
         }
-        .rpg {
+        .crystals {
             background-size: 100% 100%;
         }
         .trivia {
@@ -246,6 +252,9 @@ textarea {
             background-size: 100% 100%;
         }
         .rock {
+            background-size: 100% 100%;
+        }
+        .sabers {
             background-size: 100% 100%;
         }
         .float {
