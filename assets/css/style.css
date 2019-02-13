@@ -15,7 +15,7 @@ h2 {
         width: 194px; 
         padding: 12px;
         background-color: darkblue;
-        color: lightblue;
+        color: rgb(107, 217, 253);
         text-align: center; 
         float: left;
         font-weight: bold;
@@ -96,57 +96,61 @@ body {
         background: url(../images/Hangman.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid #ffffff;
+        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
     }
     .crystals {
         background: url(../images/Compass.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid #ffffff;
+        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
     }
     .trivia {
         background: url(../images/Trivia.png) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid #ffffff;
+        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
     }
     .rutgers {
         background: url(../images/Rutgers.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid #ffffff;
+        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
     }
     .rock {
         background: url(../images/RPS.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid #ffffff;
+        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
     }
     .sabers {
         background: url(../images/Sabers.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid #ffffff;
+        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
     }
     .concert {
         background: url(../images/Concert.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid #ffffff;
+        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;        
     }
     .senate {
         background: url(../images/USFlag.png) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid #ffffff;
+        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
+    }
+    .portfolio {
+        background: url(../images/background2.jpg) no-repeat;
+        background-size: 100% 100%;
     }
     .float {
         float: left;
@@ -160,7 +164,7 @@ body {
     .text {
         border: 2px solid darkblue;
         background-color: darkblue;
-        color: lightblue;
+        color: rgb(107, 217, 253);
         width: 100%;
         text-align: center;
         margin-top: 75px;
@@ -168,7 +172,7 @@ body {
         font-size: 130%; 
     }
     .footer {
-        border-top: 5px solid darkblue;
+        border-top: 3px solid darkblue;
         position: fixed;
         left: 0;
         bottom: 0;
@@ -178,7 +182,7 @@ body {
         background-color: #666666;
         color: #ffffff;
         text-align: center;
-        font-size: 70%;
+        font-size: 80%;
     }
 form {
     margin-left: 30px;
@@ -217,6 +221,10 @@ textarea {
         .box {
             width: 90%;
             margin: 0 5% 50px 5%;
+        }
+        .portfolio {
+            background-size: 100% auto;
+            background-repeat: repeat;
         }
     form {
         margin: 0 30px 0 30px;
@@ -285,8 +293,15 @@ textarea {
         .sabers {
             background-size: 100% 100%;
         }
+        .concert {
+            background-size: 100% 100%;
+        }
         .senate {
             background-size: 100% 100%;
+        }
+        .portfolio {
+            background-repeat: repeat;
+            background-size: 100% auto;
         }
         .float {
             float: none;
