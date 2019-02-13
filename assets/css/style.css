@@ -134,6 +134,13 @@ body {
         border: 1px solid #ffffff;
         border-radius: 25px;
     }
+    .concert {
+        background: url(../images/Concert.jpg) no-repeat;
+        background-size: 270px 180px;
+        background-position: center;
+        border: 1px solid #ffffff;
+        border-radius: 25px;        
+    }
     .senate {
         background: url(../images/USFlag.png) no-repeat;
         background-size: 270px 180px;
