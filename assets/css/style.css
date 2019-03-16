@@ -134,6 +134,13 @@ body {
         border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
     }
+    .senate {
+        background: url(../images/USFlag.png) no-repeat;
+        background-size: 270px 180px;
+        background-position: center;
+        border: 1px solid rgb(148, 148, 148);
+        border-radius: 25px;
+    }
     .concert {
         background: url(../images/Concert.jpg) no-repeat;
         background-size: 270px 180px;
@@ -155,12 +162,12 @@ body {
         border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;        
     }
-    .senate {
-        background: url(../images/USFlag.png) no-repeat;
+    .burger {
+        background: url(../images/burger.png) no-repeat;
         background-size: 270px 180px;
         background-position: center;
         border: 1px solid rgb(148, 148, 148);
-        border-radius: 25px;
+        border-radius: 25px;        
     }
     .portfolio {
         background: url(../images/background2.jpg) no-repeat;
@@ -307,6 +314,9 @@ textarea {
         .sabers {
             background-size: 100% 100%;
         }
+        .senate {
+            background-size: 100% 100%;
+        }
         .concert {
             background-size: 100% 100%;
         }
@@ -316,7 +326,7 @@ textarea {
         .finder {
             background-size: 100% 100%;
         }
-        .senate {
+        .burger {
             background-size: 100% 100%;
         }
         .portfolio {
