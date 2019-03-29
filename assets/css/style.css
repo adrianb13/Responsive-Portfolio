@@ -169,6 +169,13 @@ body {
         border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;        
     }
+    .assassin {
+        background: url(../images/Assassins.jpg) no-repeat;
+        background-size: 270px 180px;
+        background-position: center;
+        border: 1px solid rgb(148, 148, 148);
+        border-radius: 25px;        
+    }
     .portfolio {
         background: url(../images/background2.jpg) no-repeat;
         background-size: 100% 100%;
@@ -327,6 +334,9 @@ textarea {
             background-size: 100% 100%;
         }
         .burger {
+            background-size: 100% 100%;
+        }
+        .assassin {
             background-size: 100% 100%;
         }
         .portfolio {
