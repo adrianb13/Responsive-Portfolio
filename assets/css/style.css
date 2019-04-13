@@ -19,6 +19,11 @@ h2 {
         text-align: center; 
         float: left;
         font-weight: bold;
+        box-shadow: inset 2px 2px 5px rgb(107, 217, 253),
+            inset 2px -2px 5px rgb(107, 217, 253),
+            inset -2px -2px 5px rgb(107, 217, 253),
+            inset -2px 2px 5px rgb(107, 217, 253);
+        border-radius: 15px; 
     }
     .alignright { 
         float: right;
@@ -96,91 +101,78 @@ body {
         background: url(../images/Hangman.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
     }
     .crystals {
         background: url(../images/Compass.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
     }
     .trivia {
         background: url(../images/Trivia.png) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
     }
     .rutgers {
         background: url(../images/Rutgers.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
     }
     .rock {
         background: url(../images/RPS.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
     }
     .sabers {
         background: url(../images/Sabers.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
     }
     .senate {
         background: url(../images/USFlag.png) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;
     }
     .concert {
         background: url(../images/Concert.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;        
     }
     .cardboard {
         background: url(../images/Box.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;        
     }
     .finder {
         background: url(../images/Finder.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;        
     }
     .burger {
         background: url(../images/burger.png) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;        
     }
     .assassin {
         background: url(../images/Assassins.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;        
     }
     .scraper {
         background: url(../images/Scraper.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
-        border: 1px solid rgb(148, 148, 148);
         border-radius: 25px;        
     }
     .portfolio {
@@ -236,6 +228,7 @@ input[type=submit] {
     border: none;
     color: lightblue;
     padding: 5px 20px;
+    border-radius: 5px;
 }
 textarea {
     border: 2px solid #dddddd;
