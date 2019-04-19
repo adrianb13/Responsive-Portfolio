@@ -175,6 +175,12 @@ body {
         background-position: center;
         border-radius: 25px;        
     }
+    .memory {
+        background: url(../images/Memory.jpg) no-repeat;
+        background-size: 270px 180px;
+        background-position: center;
+        border-radius: 25px;        
+    }
     .portfolio {
         background: url(../images/background2.jpg) no-repeat;
         background-size: 100% 100%;
@@ -340,6 +346,9 @@ textarea {
             background-size: 100% 100%;
         }
         .scraper {
+            background-size: 100% 100%;
+        }
+        .memory {
             background-size: 100% 100%;
         }
         .portfolio {
