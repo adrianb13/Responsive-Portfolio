@@ -182,7 +182,7 @@ body {
         border-radius: 25px;        
     }
     .google {
-        background: lightgray;
+        background: url(../images/Books.jpg) no-repeat;
         background-size: 270px 180px;
         background-position: center;
         border-radius: 25px;        
