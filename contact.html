@@ -30,21 +30,29 @@
 
             <form>
                 Name: <br>
-                <input type="text" name="fullname" placeholder=" John Smith">
+                <input type="text" id="fullname" name="fullname" placeholder="John Smith">
                 <br>
                 Email: <br>
-                <input type="text" name="email" placeholder=" example@gmail.com">
+                <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                <br>
+                Phone: <br>
+                <input type="text" id="phone" name="phone" placeholder="619-123-1234">
                 <br><br>
                 Message: <br>
-                <textarea placeholder=" Comments" type="text" name="message">
+                <textarea placeholder=" Comments" type="text" id="message" name="message">
                     </textarea><br>
                     <br><br>
-                <input type="submit" value="Submit">
+                <input type="submit" id="submit" value="Submit">
             </form><br>
         </div>
         </section>
+        <br><br>
         <div class="footer">By Adrian Briones
         </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase.js"></script>
+    <script src="assets/js/contact.js"></script>
     </body>
 
 </html>

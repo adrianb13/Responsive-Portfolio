@@ -187,6 +187,13 @@ body {
         background-position: center;
         border-radius: 25px;        
     }
+    .suite {
+        background: url(../images/HSHLOGO.svg) no-repeat;
+        background-color: red;
+        background-size: 270px 180px;
+        background-position: center;
+        border-radius: 25px;
+    }
     .portfolio {
         background: url(../images/background2.jpg) no-repeat;
         background-size: 100% 100%;
@@ -355,6 +362,12 @@ textarea {
             background-size: 100% 100%;
         }
         .memory {
+            background-size: 100% 100%;
+        }
+        .google {
+            background-size: 100% 100%;
+        }
+        .suite {
             background-size: 100% 100%;
         }
         .portfolio {
