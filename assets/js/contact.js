@@ -45,6 +45,3 @@ var database = firebase.database();
 
 database.ref("/"+fullname);
 
-function openWindow (link) {
-  window.open(link)
-};
