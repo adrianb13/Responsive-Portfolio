@@ -202,7 +202,7 @@ body {
         height: 180px;
         display: flex;
         align-items: center;
-        justify-content: center;
+
         margin: 0 0 30px 30px;
     }
     .card {
@@ -211,6 +211,7 @@ body {
         width: 270px;
         height: 180px;
         margin: 0 0 30px 30px;
+        justify-content: center;
     }     
     .flipCard-inner {
         position: relative;
@@ -415,8 +416,10 @@ textarea {
             background-size: 100% auto;
         }
         .card {
-            width: 340px;
+            width: 90%;
             height: 255px;
+            text-align: center;
+            margin: 0 5% 30px 5%; 
         }
         .text {
             margin-top: 30%;
