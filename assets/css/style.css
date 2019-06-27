@@ -415,9 +415,8 @@ textarea {
             background-size: 100% auto;
         }
         .card {
-            width: 370px;
-            height: 240px;
-/*            margin: 0 5% 30px 5%; */
+            width: 340px;
+            height: 255px;
         }
         .text {
             margin-top: 30%;
@@ -433,3 +432,4 @@ textarea {
     textarea {
         width: 100%;
     }
+}
