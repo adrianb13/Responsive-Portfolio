@@ -192,6 +192,12 @@ body {
         background-position: center;
         border-radius: 25px;
     }
+    .coll {
+        background: url(../images/Collectibles.jpg) no-repeat;
+        background-size: 270px 180px;
+        background-position: center;
+        border-radius: 25px;
+    }
     .portfolio {
         background: url(../images/background2.jpg) no-repeat;
         background-size: 100% 100%;
