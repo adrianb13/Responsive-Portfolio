@@ -105,12 +105,19 @@ section {
     }
     .btft {
         text-align: center;
+        color: #555555;
         font-weight: bold;
         background: whitesmoke;
         width: 100%;
         padding: 3px 0 3px 0;
         border: 2px solid #cccccc;
         cursor: grab;
+    }
+    .btft:hover {
+        background: rgb(91, 255, 200);
+        color: black;
+        font-weight: bold;
+        border: 2px solid rgb(46, 116, 92);
     }
     .image {
         height: 158px;
@@ -136,6 +143,7 @@ section {
         border: 1px solid #dddddd;
         border-radius: 5px;
         box-shadow: 2px 2px #777777;
+        background: whitesmoke;
     }
     .hangman {
         background: url(../images/Hangman.jpg) no-repeat;
