@@ -7,57 +7,60 @@ header {
     font: 150% bold;
     align-content: center;
 }
+header:hover {
+    border-bottom: 2px solid darkblue;
+}
 h2 {
     width: 960px;
     margin: 0 auto 0 auto;    
     }
-    .alignleft {
-        width: 194px; 
-        padding: 11px;
-        background-color: white;
-        color: darkblue;
-        text-align: center; 
-        float: left;
-        font-weight: bold;
-/*         box-shadow: inset 2px 2px 5px rgb(107, 217, 253),
-            inset 2px -2px 5px rgb(107, 217, 253),
-            inset -2px -2px 5px rgb(107, 217, 253),
-            inset -2px 2px 5px rgb(107, 217, 253);
-        border-radius: 15px;  */
-    }
-    .alignleft:hover {
-        color: rgb(107, 217, 253);
-        background-color: darkblue;
-        padding-bottom: 12px;
-        box-shadow: inset 2px 2px 5px rgb(107, 217, 253),
-            inset 2px -2px 5px rgb(107, 217, 253),
-            inset -2px -2px 5px rgb(107, 217, 253),
-            inset -2px 2px 5px rgb(107, 217, 253);
-    }
-    .alignright { 
-        float: right;
-        margin-left: 10px;
-        font-size: 60%;
-        font-weight: bold;
-        padding-top: 17px;
-        margin-right: auto;
-    }
-    .borderleft {
-        border-left: 1px solid #cccccc;
-        padding-left: 19px;
-    }
-    .bottomborder {
-        border-bottom: 2px solid #dddddd;
-        padding-bottom: 15px;
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-bottom: 20px;
-    }
-    a:link, a:visited, a:hover, a:active {
-        text-decoration: none;
-        color: #555555;
-        margin: 10px; 
-    }
+.alignleft {
+    width: 194px; 
+    padding: 11px;
+    background-color: white;
+    color: darkblue;
+    text-align: center; 
+    float: left;
+    font-weight: bold;
+/*        box-shadow: inset 2px 2px 5px rgb(107, 217, 253),
+        inset 2px -2px 5px rgb(107, 217, 253),
+        inset -2px -2px 5px rgb(107, 217, 253),
+        inset -2px 2px 5px rgb(107, 217, 253);
+    border-radius: 15px;  */
+}
+.alignleft:hover {
+    color: rgb(107, 217, 253);
+    background-color: darkblue;
+    padding-bottom: 12px;
+    box-shadow: inset 2px 2px 5px rgb(107, 217, 253),
+        inset 2px -2px 5px rgb(107, 217, 253),
+        inset -2px -2px 5px rgb(107, 217, 253),
+        inset -2px 2px 5px rgb(107, 217, 253);
+}
+.alignright { 
+    float: right;
+    margin-left: 10px;
+    font-size: 60%;
+    font-weight: bold;
+    padding-top: 17px;
+    margin-right: auto;
+}
+.borderleft {
+    border-left: 1px solid #cccccc;
+    padding-left: 19px;
+}
+.bottomborder {
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #555555;
+    margin: 10px; 
+}
 h1 {
     font-size: 150%;
     font-weight: bold;
@@ -73,255 +76,262 @@ body {
 section {
     margin: 10px auto 10px auto;
 }
-    .bodymargin {
-        margin-left: 30px;
-        margin-right: 30px;
-        text-align: justify;
-    }
-    .linkmargin {
-        margin: 0 20px 0 20px;
-        text-decoration: underline;
-    }    
-    .box {
-        margin-top:  0px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 956px;
-        border: 2px solid #dddddd;
-/*         background-color: #ffffff; */
-        box-shadow: 3px 3px #777777;
-        font: #777777;
-        overflow: auto;
-    }
-    .box2 {
-        padding-bottom: 15px;
-    }
-    .li {
-        float: left;
-        width: 170px;
-        margin: 0 30px 0 30px;
-        display: list-item;
-        list-style-type: disc;
-        list-style-position: inside;
-    }
-    .btbox {
-        margin: 0 30px 0 30px;
-    }
-    .aft{
-        float: left;
-        margin: 0 auto 0 auto;
-        width: 31%;
-    }
-    .btft {
-        text-align: center;
-        color: #555555;
-        font-weight: bold;
-        background: whitesmoke;
-        width: 100%;
-        padding: 3px 0 3px 0;
-        border: 2px solid #cccccc;
-        cursor: grab;
-    }
-    .btft:hover {
-        background: rgb(91, 255, 200);
-        color: black;
-        font-weight: bold;
-        border: 2px solid rgb(46, 116, 92);
-    }
-    .image {
-        height: 158px;
-        width: 211px;
-        float: left;
-        margin: 0 20px 10px 30px;
-        border: 1px solid #ffffff;
-        border-radius: 15px;
-    }
-    .linkborder {
-        border: 1px solid #dddddd;
-        margin-bottom: 10px;
-    }
-    .leftmargin {
-        margin-left: 30px;
-        font-family: 'Helvetica Neue';
-    }
-    #indexButton {
-        color: #777777;
-        font-weight: bold;
-        padding: 5px 10px 5px 10px;
-        margin-left: 30px;
-        border: 1px solid #dddddd;
-        border-radius: 5px;
-        box-shadow: 2px 2px #777777;
-        background: whitesmoke;
-    }
-    .hangman {
-        background: url(../images/Hangman.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;
-    }
-    .crystals {
-        background: url(../images/Compass.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;
-    }
-    .trivia {
-        background: url(../images/Trivia.png) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;
-    }
-    .rutgers {
-        background: url(../images/Rutgers.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;
-    }
-    .rock {
-        background: url(../images/RPS.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;
-    }
-    .sabers {
-        background: url(../images/Sabers.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;
-    }
-    .senate {
-        background: url(../images/USFlag.png) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;
-    }
-    .concert {
-        background: url(../images/Concert.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;        
-    }
-    .cardboard {
-        background: url(../images/Box.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;        
-    }
-    .finder {
-        background: url(../images/Finder.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;        
-    }
-    .burger {
-        background: url(../images/burger.png) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;        
-    }
-    .assassin {
-        background: url(../images/Assassins.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;        
-    }
-    .scraper {
-        background: url(../images/Scraper.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;        
-    }
-    .memory {
-        background: url(../images/memory.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;        
-    }
-    .google {
-        background: url(../images/Books.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;        
-    }
-    .suite {
-        background: url(../images/PropertyBack.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;
-    }
-    .GOT {
-        background: url(../images/Throne.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;
-        border-radius: 25px;
-    }
-    .coll {
-        background: url(../images/Collectibles.jpg) no-repeat;
-        background-size: 270px 180px;
-        background-position: center;
-        border-radius: 25px;
-    }
-    .portfolio {
-        background: url(../images/background2.jpg) no-repeat;
-        background-size: 100% 100%;
-    }
-    .float {
-        float: left;
-        width: 270px;
-        height: 180px;
-        display: flex;
-        align-items: center;
+.buffer {
+    margin-bottom: 60px;
+}
+.bodymargin {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.linkmargin {
+    margin: 0 20px 0 20px;
+    text-decoration: underline;
+}    
+.box {
+    margin-top:  0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 956px;
+    border: 2px solid #dddddd;
+    box-shadow: 3px 3px #777777;
+    font: #777777;
+    overflow: auto;
+}
+.box:hover {
+    background: white;
+    border: 2px solid darkblue;
+    box-shadow: 3px 3px red;
+}
+.box2 {
+    padding-bottom: 15px;
+}
+.li {
+    float: left;
+    width: 170px;
+    margin: 0 30px 0 30px;
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.btbox {
+    margin: 0 30px 0 30px;
+}
+.aft{
+    float: left;
+    margin: 0 auto 0 auto;
+    width: 31%;
+}
+.btft {
+    text-align: center;
+    color: #555555;
+    font-weight: bold;
+    background: whitesmoke;
+    width: 100%;
+    padding: 3px 0 3px 0;
+    border: 2px solid #cccccc;
+    cursor: grab;
+}
+.btft:hover {
+    background: rgb(91, 255, 200);
+    color: black;
+    font-weight: bold;
+    border: 2px solid rgb(46, 116, 92);
+}
+.image {
+    height: 158px;
+    width: 211px;
+    float: left;
+    margin: 0 20px 10px 30px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+}
+.linkborder {
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+.leftmargin {
+    margin-left: 30px;
+    font-family: 'Helvetica Neue';
+}
+#indexButton {
+    color: #777777;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    margin-left: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px #777777;
+    background: whitesmoke;
+}
+.hangman {
+    background: url(../images/Hangman.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;
+}
+.crystals {
+    background: url(../images/Compass.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;
+}
+.trivia {
+    background: url(../images/Trivia.png) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;
+}
+.rutgers {
+    background: url(../images/Rutgers.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;
+}
+.rock {
+    background: url(../images/RPS.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;
+}
+.sabers {
+    background: url(../images/Sabers.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;
+}
+.senate {
+    background: url(../images/USFlag.png) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;
+}
+.concert {
+    background: url(../images/Concert.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;        
+}
+.cardboard {
+    background: url(../images/Box.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;        
+}
+.finder {
+    background: url(../images/Finder.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;        
+}
+.burger {
+    background: url(../images/burger.png) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;        
+}
+.assassin {
+    background: url(../images/Assassins.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;        
+}
+.scraper {
+    background: url(../images/Scraper.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;        
+}
+.memory {
+    background: url(../images/memory.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;        
+}
+.google {
+    background: url(../images/Books.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;        
+}
+.suite {
+    background: url(../images/PropertyBack.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;
+}
+.GOT {
+    background: url(../images/Throne.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;
+    border-radius: 25px;
+}
+.coll {
+    background: url(../images/Collectibles.jpg) no-repeat;
+    background-size: 270px 180px;
+    background-position: center;
+    border-radius: 25px;
+}
+.portfolio, .portfolio:hover {
+    background: url(../images/background2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.float {
+    float: left;
+    width: 270px;
+    height: 180px;
+    display: flex;
+    align-items: center;
 
-        margin: 0 0 30px 30px;
-    }
-    .card {
-        float: left;
-        background-color: transparent;
-        width: 270px;
-        height: 180px;
-        margin: 0 0 30px 30px;
-        justify-content: center;
-    }     
-    .flipCard-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.5s;
-        transform-style: preserve-3d;
-    } 
-    .card:hover .flipCard-inner {
-        transform: rotateY(180deg);
-    } 
-    .flipCard-front, .flipCard-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        backface-visibility: hidden;
-    } 
-    .flipCard-front {
-        background-color: #777777;
-        color: black;
-        border-radius: 25px;
-    }      
-    .flipCard-back {
-        background-color: darkblue;
-        color: white;
-        transform: rotateY(180deg);
-        border-radius: 25px;
-    }
-    .text {
-        border: 2px solid darkblue;
-        background-color: darkblue;
-        color: rgb(107, 217, 253); 
-        text-align: center;
-        margin-top: 85px;
-        padding: 5px;
-        font-size: 120%; 
-    }
-    .textBack {
-        color: rgb(107, 217, 253);
-        margin: 0 5px 0 5px;
-        font-size: 110%;
-    }
-    .footer {
-        border-top: 3px solid darkblue;
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        padding-top: 20px;
-        padding-bottom: 10px;
-        background-color: #666666;
-        color: #ffffff;
-        text-align: center;
-        font-size: 80%;
-    }
+     margin: 0 0 30px 30px;
+}
+.card {
+    float: left;
+    background-color: transparent;
+    width: 270px;
+    height: 180px;
+    margin: 0 0 30px 30px;
+    justify-content: center;
+}     
+.flipCard-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+} 
+.card:hover .flipCard-inner {
+    transform: rotateY(180deg);
+} 
+.flipCard-front, .flipCard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+} 
+.flipCard-front {
+    background-color: #777777;
+    color: black;
+    border-radius: 25px;
+}      
+.flipCard-back {
+    background-color: darkblue;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 25px;
+}
+.text {
+    border: 2px solid darkblue;
+    background-color: darkblue;
+    color: rgb(107, 217, 253); 
+    text-align: center;
+    margin-top: 85px;
+    padding: 5px;
+    font-size: 120%; 
+}
+.textBack {
+    color: rgb(107, 217, 253);
+    margin: 0 5px 0 5px;
+    font-size: 110%;
+}
+.footer {
+    border-top: 3px solid darkblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    font-size: 80%;
+}
 form {
     margin-left: 30px;
     font-family: 'Helvetica Neue';
@@ -354,24 +364,24 @@ textarea {
         width: 100%;
         margin: 0px 40px 0px 20px;
     }
-        .alignright {
-            margin-right: 40px;
-        }
-        .box {
-            width: 90%;
-            margin: 0 5% 20px 5%;
-        }
-        .btbox {
-            width: 90%;
-            margin: 0 5% 0 5%;
-        }
-        .aft {
-            width: 29%;
-        }
-        .portfolio {
-            background-size: 100% auto;
-            background-repeat: repeat;
-        }
+    .alignright {
+        margin-right: 40px;
+    }
+    .box {
+        width: 90%;
+        margin: 0 5% 20px 5%;
+    }
+    .btbox {
+        width: 90%;
+        margin: 0 5% 0 5%;
+    }
+    .aft {
+        width: 29%;
+    }
+    .portfolio {
+        background-size: 100% auto;
+        background-repeat: repeat;
+    }
     form {
         margin: 0 30px 0 30px;
     }
@@ -398,111 +408,111 @@ textarea {
     section {
         margin: 0px;
     }
-        .alignleft {
-            float: none;
-            width: 100%;
-            margin-left: -10px;
-        }
-        .alignright { 
-            float: none;
-            padding-top: 12px;
-/*             width: 100%; */
-            text-align: center;
-            margin-right: 0;
-            margin-left: 0;
-        }
-        .box {
-            width: 93%;    
-            margin: 0 2% 20px 3%;
-        }
-        .btbox {
-            width: 95%;
-            padding-left: 1%;
-            margin: 0 2% 0 2%;
-        }
-        .aft {
-            width: 28%;
-        }
-        .bottomborder {
-            width: 90%;
-            margin-left: 5%;
-        }
-        .image {
-            width: 90%;
-            height: auto;
-            margin: 0 5% 20px 5%;
-        }
-        .bodymargin {
-            margin: 0 5% 0 5%;
-        }
-        .hangman {
-            background-size: 100% 100%;
-        }
-        .crystals {
-            background-size: 100% 100%;
-        }
-        .trivia {
-            background-size: 100% 100%;
-        }
-        .rutgers { 
-            background-size: 100% 100%;
-        }
-        .rock {
-            background-size: 100% 100%;
-        }
-        .sabers {
-            background-size: 100% 100%;
-        }
-        .senate {
-            background-size: 100% 100%;
-        }
-        .concert {
-            background-size: 100% 100%;
-        }
-        .cardboard {
-            background-size: 100% 100%;
-        }
-        .finder {
-            background-size: 100% 100%;
-        }
-        .burger {
-            background-size: 100% 100%;
-        }
-        .assassin {
-            background-size: 100% 100%;
-        }
-        .scraper {
-            background-size: 100% 100%;
-        }
-        .memory {
-            background-size: 100% 100%;
-        }
-        .google {
-            background-size: 100% 100%;
-        }
-        .suite {
-            background-size: 100% 100%;
-        }
-        .GOT {
-            background-size: 100% 100%;
-        }
-        .coll {
-            background-size: 100% 100%;
-        }
-        .portfolio {
-            background-repeat: repeat;
-            background-size: 100% auto;
-        }
-        .card {
-            width: 90%;
-            height: 255px;
-            text-align: center;
-            margin: 0 5% 30px 5%; 
-        }
-        .text {
-            margin-top: 30%;
-            margin-bottom: 30%;
-        }
+    .alignleft {
+        float: none;
+        width: 100%;
+        margin-left: -10px;
+    }
+    .alignright { 
+        float: none;
+        padding-top: 12px;
+/*            width: 100%; */
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .box {
+        width: 93%;    
+        margin: 0 2% 20px 3%;
+    }
+    .btbox {
+        width: 95%;
+        padding-left: 1%;
+        margin: 0 2% 0 2%;
+    }
+    .aft {
+        width: 28%;
+    }
+    .bottomborder {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .image {
+        width: 90%;
+        height: auto;
+        margin: 0 5% 20px 5%;
+    }
+    .bodymargin {
+        margin: 0 5% 0 5%;
+    }
+    .hangman {
+        background-size: 100% 100%;
+    }
+    .crystals {
+        background-size: 100% 100%;
+    }
+    .trivia {
+        background-size: 100% 100%;
+    }
+    .rutgers { 
+        background-size: 100% 100%;
+    }
+    .rock {
+        background-size: 100% 100%;
+    }
+    .sabers {
+        background-size: 100% 100%;
+    }
+    .senate {
+        background-size: 100% 100%;
+    }
+    .concert {
+        background-size: 100% 100%;
+    }
+    .cardboard {
+        background-size: 100% 100%;
+    }
+    .finder {
+        background-size: 100% 100%;
+    }
+    .burger {
+        background-size: 100% 100%;
+    }
+    .assassin {
+        background-size: 100% 100%;
+    }
+    .scraper {
+        background-size: 100% 100%;
+    }
+    .memory {
+        background-size: 100% 100%;
+    }
+    .google {
+        background-size: 100% 100%;
+    }
+    .suite {
+        background-size: 100% 100%;
+    }
+    .GOT {
+        background-size: 100% 100%;
+    }
+    .coll {
+        background-size: 100% 100%;
+    }
+    .portfolio {
+        background-repeat: repeat;
+        background-size: 100% auto;
+    }
+    .card {
+        width: 90%;
+        height: 255px;
+        text-align: center;
+        margin: 0 5% 30px 5%; 
+    }
+    .text {
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
     form {
         margin: 0 5% 0 5%;
     }
