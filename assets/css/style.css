@@ -111,22 +111,17 @@ section {
 }
 .wid {
     float: left;
-    width: 180px;
-    margin: 2px auto 2px auto;
-}
-.li {
-    border-radius: 5px;
-    display: inline;
-/*     display: list-item;
-    list-style-type: disc;
-    list-style-position: inside; */
+    width: 175px;
+    margin: 2px;
 }
 .spm {
     margin-right: 10px;
+    opacity: 0;
 }
 .box:hover .spm {
     color: blue;
     text-decoration: bold;
+    opacity: 1;
 }
 .btbox {
     margin: 0 30px 0 30px;
@@ -411,7 +406,6 @@ textarea {
 @media (max-width: 640.98px) {
     header {
         height: 90px;
-/*         width: 100%; */
         padding-right: 0px;
         margin-right: 0px;
     }
@@ -430,7 +424,6 @@ textarea {
     .alignright { 
         float: none;
         padding-top: 12px;
-/*            width: 100%; */
         text-align: center;
         margin-right: 0;
         margin-left: 0;
