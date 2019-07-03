@@ -22,11 +22,6 @@ h2 {
     text-align: center; 
     float: left;
     font-weight: bold;
-/*        box-shadow: inset 2px 2px 5px rgb(107, 217, 253),
-        inset 2px -2px 5px rgb(107, 217, 253),
-        inset -2px -2px 5px rgb(107, 217, 253),
-        inset -2px 2px 5px rgb(107, 217, 253);
-    border-radius: 15px;  */
 }
 .alignleft:hover {
     color: rgb(107, 217, 253);
@@ -114,12 +109,17 @@ section {
     width: 175px;
     margin: 2px;
 }
-.spm {
+.spm, .spm2 {
     margin-right: 10px;
     opacity: 0;
 }
 .box:hover .spm {
     color: blue;
+    text-decoration: bold;
+    opacity: 1;
+}
+.box:hover .spm2 {
+    color: darkblue;
     text-decoration: bold;
     opacity: 1;
 }
