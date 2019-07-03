@@ -395,10 +395,6 @@ input:focus, input:hover, textarea:focus, textarea:hover {
         width: 90%;
         margin: 0 5% 20px 5%;
     }
-    .btbox {
-        width: 90%;
-        margin: 0 5% 0 5%;
-    }
     .aft {
         width: 29%;
     }
@@ -446,11 +442,6 @@ input:focus, input:hover, textarea:focus, textarea:hover {
     .box {
         width: 93%;    
         margin: 0 2% 20px 3%;
-    }
-    .btbox {
-        width: 95%;
-        padding-left: 1%;
-        margin: 0 2% 0 2%;
     }
     .aft {
         width: 28%;
@@ -544,5 +535,13 @@ input:focus, input:hover, textarea:focus, textarea:hover {
     }
     textarea {
         width: 100%;
+    }
+}
+@media (max-width: 501px) {
+    .aft {
+        float: none;
+    }
+    .btft {
+        width: 95%;
     }
 }
