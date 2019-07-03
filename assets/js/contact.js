@@ -9,14 +9,17 @@ $("#submit").on("click", function contact(event) {
   contactemail = $("#email").val().trim();
   contactphone = $("#phone").val().trim();
   contactmessage = $("#message").val().trim();
-  console.log(fullname + "," + email + "," + message)
+  console.log(fullname + "," + email + "," + message);
+  if (fullname === (null || "")){
+    fullname = "unknown"
+  }
   saveFirebase()
   clear()
   alert("Thank You! Your message has been sent!");
 })
 
 function saveFirebase () {
-  database.ref("/"+fullname).set({
+  database.ref("/"+fullname+":"+contactphone).set({
     name: fullname,
     email: contactemail,
     phone: contactphone,
@@ -27,6 +30,7 @@ function saveFirebase () {
 function clear () {
   $("#fullname").val("");
   $("#email").val("");
+  $("#phone").val("");
   $("#message").val("");
 }
 

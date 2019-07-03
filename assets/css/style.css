@@ -348,7 +348,7 @@ form {
     margin-left: 30px;
     font-family: 'Helvetica Neue';
 }
-input[type=text], input[type=email], input[type=tel] {
+input{
     border: 2px solid #dddddd;
     font: #777777;
     outline: none;
@@ -356,12 +356,18 @@ input[type=text], input[type=email], input[type=tel] {
     height: 20px;
     margin: 5px 0 12px 0;
 }
-input[type=submit] {
-    background-color: darkblue;
-    border: none;
-    color: lightblue;
-    padding: 5px 20px;
+#submit {
+    background-color: whitesmoke;
+    border: 1px solid #777777;
+    width: 100px;
+    height: auto;
+    color: #555555;
+    padding: 5px 0 5px 0;
     border-radius: 5px;
+}
+#submit:active {
+    background: darkblue;
+    color: lightblue;
 }
 textarea {
     border: 2px solid #dddddd;
