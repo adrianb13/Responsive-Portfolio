@@ -106,13 +106,27 @@ section {
 .box2 {
     padding-bottom: 15px;
 }
-.li {
-    float: left;
-    width: 170px;
+.sbox{
     margin: 0 30px 0 30px;
-    display: list-item;
+}
+.wid {
+    float: left;
+    width: 180px;
+    margin: 2px auto 2px auto;
+}
+.li {
+    border-radius: 5px;
+    display: inline;
+/*     display: list-item;
     list-style-type: disc;
-    list-style-position: inside;
+    list-style-position: inside; */
+}
+.spm {
+    margin-right: 10px;
+}
+.box:hover .spm {
+    color: blue;
+    text-decoration: bold;
 }
 .btbox {
     margin: 0 30px 0 30px;
