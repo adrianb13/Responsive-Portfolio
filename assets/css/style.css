@@ -370,6 +370,9 @@ textarea {
     outline: none;
     margin-top: 5px;
 }
+input:focus, input:hover, textarea:focus, textarea:hover {
+    border: 2px solid darkblue;
+} 
 
 @media (min-width: 641px) and (max-width: 991.98px) { 
     h2 {
