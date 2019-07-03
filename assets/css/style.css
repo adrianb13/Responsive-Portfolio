@@ -164,14 +164,15 @@ section {
     font-family: 'Helvetica Neue';
 }
 #indexButton {
-    color: #777777;
+    color: #555555;
     font-weight: bold;
-    padding: 5px 10px 5px 10px;
+    padding: 3px 15px 3px 15px;
     margin-left: 30px;
     border: 1px solid #dddddd;
-    border-radius: 5px;
     box-shadow: 2px 2px #777777;
     background: whitesmoke;
+    text-align: center;
+    cursor: grab;
 }
 .hangman {
     background: url(../images/Hangman.jpg) no-repeat;
