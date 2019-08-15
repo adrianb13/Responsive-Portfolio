@@ -94,7 +94,8 @@ section {
     overflow: auto;
 }
 .box:hover {
-    background: white;
+    color: whitesmoke;
+    background: black;
     border: 2px solid darkblue;
     box-shadow: 3px 3px red;
 }
@@ -119,9 +120,12 @@ section {
     opacity: 1;
 }
 .box:hover .spm2 {
-    color: darkblue;
+    color: blue;
     text-decoration: bold;
     opacity: 1;
+}
+.box:hover .bottomborder {
+    color: blue
 }
 .btbox {
     margin: 0 30px 0 30px;
@@ -153,7 +157,7 @@ section {
     width: 211px;
     float: left;
     margin: 0 20px 10px 30px;
-    border: 1px solid #ffffff;
+    border: none;
     border-radius: 15px;
 }
 .linkborder {
