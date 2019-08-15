@@ -334,8 +334,13 @@ section {
 }
 .textBack {
     color: rgb(107, 217, 253);
-    margin: 0 5px 0 5px;
+    margin: 0 5px 0 2px;
     font-size: 110%;
+}
+.tB1 {
+    color: orange;
+    font-size: 110%;
+    margin-top: -8px;
 }
 .footer {
     border-top: 3px solid darkblue;
